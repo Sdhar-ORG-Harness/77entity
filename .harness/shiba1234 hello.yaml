@@ -1,0 +1,22 @@
+apiVersion: harness.io/v1
+kind: Component
+type: service
+identifier: shiba1234hello
+name: shiba1234 hello
+owner: user:account/shibam.dhar
+orgIdentifier: default
+projectIdentifier: sd2
+spec:
+  lifecycle: experimental
+  ownedBy:
+  - group/sample-group
+metadata:
+  description: This entity ids for Impact1705
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+    backstage.io/source-location: url:https://github.com/Sdhar-ORG-Harness/77entity
+  links:
+  - title: Website
+    url: http://my-sample-website.com
+  tags:
+  - my-sample
